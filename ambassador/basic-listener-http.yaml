@@ -11,6 +11,3 @@ spec:
   hostBinding:
     namespace:
       from: ALL
-
-      test
-      
