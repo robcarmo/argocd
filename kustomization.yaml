@@ -4,8 +4,7 @@ kind: Kustomization
 namespace: argocd
 
 resources:
-  - ha/cluster-install
-  - argocdconfig/argo-cd.yaml
+  - argocdconfig/argocdconfig.yaml
 
 
 # patchesStrategicMerge:
