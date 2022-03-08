@@ -31,7 +31,7 @@ spec:
   project: local-services
   source:
     repoURL: git@github.com:robcarmo/local-services.git
-    targetRevision: dev
+    targetRevision: HEAD
     path: .
   destination:
     server: https://kubernetes.default.svc
