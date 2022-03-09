@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 - base/repository.yaml
-- base/amb-init-config
+- base/amb-init-config/aes-crds.yaml
 - base/secrets.yaml
 - base/argocd.yaml
 - base/local-services.yaml
